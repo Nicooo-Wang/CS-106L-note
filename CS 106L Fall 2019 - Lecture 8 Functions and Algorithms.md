@@ -2,11 +2,11 @@
 
 # STL sort实现原理
 
-![image-20221017113053020](C:\Users\Nico\OneDrive - officeapp.org\code\markdown\CS-106L-note\CS 106L Fall 2019 - Lecture 8 Functions and Algorithms.assets\image-20221017113053020-16659774562321.png)
+![image-20221017113053020](.\CS 106L Fall 2019 - Lecture 8 Functions and Algorithms.assets\image-20221017113053020-16659774562321.png)
 
-![image-20221017115836345](C:\Users\Nico\OneDrive - officeapp.org\code\markdown\CS-106L-note\CS 106L Fall 2019 - Lecture 8 Functions and Algorithms.assets\image-20221017115836345.png)
+![image-20221017115836345](.\CS 106L Fall 2019 - Lecture 8 Functions and Algorithms.assets\image-20221017115836345.png)
 
-![image-20221017115137514](C:\Users\Nico\OneDrive - officeapp.org\code\markdown\CS-106L-note\CS 106L Fall 2019 - Lecture 8 Functions and Algorithms.assets\image-20221017115137514-16659787021503.png)
+![image-20221017115137514](.\CS 106L Fall 2019 - Lecture 8 Functions and Algorithms.assets\image-20221017115137514-16659787021503.png)
 
 ```c++
 #include <iostream>
