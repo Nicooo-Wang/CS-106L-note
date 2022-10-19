@@ -13,3 +13,5 @@
 ![image-20221017195045477](.\CS 106L Fall 2019 - Lecture 10 Classes and Const Correctness.assets\image-20221017195045477.png)
 
 ![image-20221017195346593](.\CS 106L Fall 2019 - Lecture 10 Classes and Const Correctness.assets\image-20221017195346593.png)
+
+![image-20221019085353456](CS 106L Fall 2019 - Lecture 10 Classes and Const Correctness.assets/image-20221019085353456.png)
