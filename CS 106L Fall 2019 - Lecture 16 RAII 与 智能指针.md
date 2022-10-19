@@ -1,8 +1,10 @@
 [TOC]
 
-# WHY RAII
+# RAII
 
-## code paths
+## WHY 
+
+### code paths
 
 ![image-20221019152233175](CS 106L Fall 2019 - Lecture 16 RAII 与 智能指针.assets/image-20221019152233175.png)
 
@@ -27,15 +29,15 @@ string EvaluateSalaryAndReturnName(int idNumber)
 
 如果在以上23个代码分支中，任意一个分支出错，delete都无法执行，造成内存泄漏。
 
-## 需要申请、释放的资源
+### 需要申请、释放的资源
 
 ![image-20221019154252184](CS 106L Fall 2019 - Lecture 16 RAII 与 智能指针.assets/image-20221019154252184.png)
 
-## 程序安全等级分类
+### 程序安全等级分类
 
 ![image-20221019154950153](CS 106L Fall 2019 - Lecture 16 RAII 与 智能指针.assets/image-20221019154950153.png)
 
-# WHAT IS RAII / CADRE
+## WHAT IS RAII / CADRE
 
 **Resource Acuisition Is Initialization** / **Constructor Acquires, Destructor Releases**
 
@@ -57,17 +59,17 @@ stream类型符合RAII要求，即便没有close()，在对象结束时也会调
 
 ==lock_guard==实现方式
 
-# 智能指针
+## HOW - 智能指针
 
 ![image-20221019164640016](CS 106L Fall 2019 - Lecture 16 RAII 与 智能指针.assets/image-20221019164640016.png)
 
-## unique_ptr
+### unique_ptr
 
 ![image-20221019164922474](CS 106L Fall 2019 - Lecture 16 RAII 与 智能指针.assets/image-20221019164922474.png)
 
 ==unique_ptr==通过==lock_guard==实现不能复制
 
-## shared_ptr
+### shared_ptr
 
 ![image-20221019165337815](CS 106L Fall 2019 - Lecture 16 RAII 与 智能指针.assets/image-20221019165337815.png)
 
@@ -77,7 +79,7 @@ stream类型符合RAII要求，即便没有close()，在对象结束时也会调
 
 ![image-20221019165610584](CS 106L Fall 2019 - Lecture 16 RAII 与 智能指针.assets/image-20221019165610584.png)
 
-## weak_ptr
+### weak_ptr
 
 ![image-20221019170132062](CS 106L Fall 2019 - Lecture 16 RAII 与 智能指针.assets/image-20221019170132062.png)
 

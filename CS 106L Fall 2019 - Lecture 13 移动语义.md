@@ -2,6 +2,8 @@
 
 # 移动语义
 
+## WHY
+
 ![image-20221018142101104](CS 106L Fall 2019 - Lecture 13 移动语义.assets/image-20221018142101104.png)
 
 以上过程共有六个变量被构造、析构
@@ -26,13 +28,15 @@ name1 在main函数结束后析构
 
 ![image-20221018150255918](CS 106L Fall 2019 - Lecture 13 移动语义.assets/image-20221018150255918.png)
 
-## 移动语义成员函数
+## HOW
+
+### 移动语义成员函数
 
 ![image-20221018154917396](CS 106L Fall 2019 - Lecture 13 移动语义.assets/image-20221018154917396.png)
 
 ![image-20221018154947344](CS 106L Fall 2019 - Lecture 13 移动语义.assets/image-20221018154947344.png)
 
-## 移动语义成员函数实现
+### 移动语义成员函数实现
 
 ![image-20221018195728229](CS 106L Fall 2019 - Lecture 13 移动语义.assets/image-20221018195728229.png)
 
